@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/Blanco"
+
+    tools:context="com.example.erick.footapphuanuco.MenuComida">
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+
+            android:layout_width = "160dp"
+            android:layout_height = "190dp"
+            android:layout_margin ="10dp">
+
+
+            <LinearLayout
+
+
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:orientation = "vertical"
+                android:gravity = "center">
+
+                <ImageView
+                    android:layout_width ="120dp"
+                    android:layout_height = "120dp"
+                    android:src="@drawable/desayunos"
+                    android:padding="10dp"
+                    android:id="@+id/img1"
+                    android:onClick="go"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="DESAYUNOS"
+
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrayLine"
+                    android:layout_margin="10dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width = "160dp"
+            android:layout_height = "190dp"
+            android:layout_margin ="10dp">
+
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:orientation = "vertical"
+                android:gravity = "center">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:onClick="go"
+                    android:layout_width ="120dp"
+                    android:layout_height = "120dp"
+                    android:src="@drawable/almuerzo"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="ALMUERZOS"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrayLine"
+                    android:layout_margin="10dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:clipToPadding="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width = "160dp"
+        android:layout_height = "190dp"
+        android:layout_margin ="10dp">
+
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation = "vertical"
+            android:gravity = "center">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:onClick="go"
+                android:layout_width ="120dp"
+                android:layout_height = "120dp"
+                android:src="@drawable/cenas"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="CENAS"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/LightGrayLine"
+                android:layout_margin="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_width = "160dp"
+        android:layout_height = "190dp"
+        android:layout_margin ="10dp">
+
+
+        <LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:orientation = "vertical"
+            android:gravity = "center">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:onClick="go"
+                android:layout_width ="120dp"
+                android:layout_height = "120dp"
+                android:src="@drawable/comida_rapida"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="COMIDA RAPIDA"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/LightGrayLine"
+                android:layout_margin="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_width = "340dp"
+            android:layout_height = "150dp"
+            android:layout_margin ="10dp">
+
+
+            <LinearLayout
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:orientation = "vertical"
+                android:gravity = "center">
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:onClick="go"
+                    android:layout_marginTop="1dp"
+                    android:layout_width ="120dp"
+                    android:layout_height = "120dp"
+                    android:src="@drawable/bebidas"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="1dp"
+                    android:text="BEBIDAS"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/LightGrayLine"
+                    android:layout_margin="10dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

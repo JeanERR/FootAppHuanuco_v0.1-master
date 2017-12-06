@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Precio del Plato"
+        android:ems="10"
+        android:id="@+id/editPrecio"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Nombre del Plato"
+        android:layout_above="@+id/editPrecio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+        />
+
+    <EditText
+        android:id="@+id/edtLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editPrecio"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Lugar"
+        android:inputType="textPersonName" />
+
+
+
+    <ImageView
+        android:id="@+id/imageViewFood"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/edtNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/BotonActualizar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtLugar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Actualizar"
+        android:background="#265dc4"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

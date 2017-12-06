@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23283a</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#6b9326</color>
+    <color name="ColorFondo">#38a9aa</color>
+    <color name="Blanco">#ffffff</color>
+    <color name="pink">#fe104d</color>
+    <color name="background">#2F9395</color>
+    <color name="Colorfacebook">#355c7d</color>
+    <color name="BotonColor">#64cd9d</color>
+    <color name="PrimaryColor">#FFC107</color>
+    <color name="PrimaryColorDark">#FFA000</color>
+    <color name="BackgroundColor">#fcfcfc</color>
+    <color name="LightGrayLine">#ededed</color>
+    <color name="DeepPurple">#7c4dff</color>
+    <color name="MaterialYeloow">#ffb300</color>
+    <color name="MaterialGreen">#00bfa5</color>
+    <color name="PinkAccent">#ff4081</color>
+    <color name="dark_gray">#A9A9A9</color>
+    <color name="Bluelight">#05c3f9</color>
+    <color name="BlueDark">#0691b8</color>
+    <color name="verde">#FF3E6B48</color>
+
+</resources>

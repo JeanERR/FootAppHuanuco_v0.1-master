@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.erick.footapphuanuco">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MenuComida">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ComidaLista" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CrearUsuario" />
+        <activity android:name=".Sugerencias"
+            android:label="Sugerencias"/>
+        <activity android:name=".InicioSesion" />
+        <activity android:name=".ComidaListaUsuario"
+            android:label="Desayunos"/>
+        <activity android:name=".SplashScreen"
+            android:label="Menu"/>
+        <activity android:name=".ComidaListaUsuario2"
+            android:label="Almuerzos"/>
+        <activity android:name=".ComidaListaUsuario3"
+            android:label="Cenas"/>
+        <activity android:name=".ComidaListaUsuario4"
+            android:label="Comida Rapida"/>
+        <activity android:name=".ComidaListaUsuario5"
+            android:label="Bebidas"/>
+        <activity android:name=".Lugares_Comida"
+            android:label="Lugares"/>
+        <activity android:name=".RootLogin"/>
+    </application>
+
+</manifest>

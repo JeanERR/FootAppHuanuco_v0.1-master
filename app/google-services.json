@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "53977382994",
+    "firebase_url": "https://softwareappfinal.firebaseio.com",
+    "project_id": "softwareappfinal",
+    "storage_bucket": "softwareappfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53977382994:android:13e0826187ec21d3",
+        "android_client_info": {
+          "package_name": "com.example.erick.footapphuanuco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53977382994-6fgde05bngqkqr2tg3n5221nj2ejgb3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz2Fy0mwKu2Mpn-oMtIdb09sYUF-g_qiM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
